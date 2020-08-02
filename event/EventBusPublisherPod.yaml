@@ -27,7 +27,7 @@ spec:
     - name: ZOOKEEPER_PORT
       value: "9092"
     - name: KAFKA_TOPIC
-      value: "event-bus"
+      value: "event_bus"
     ports:
     # containerPort is the port exposed by the container (where nodejs express api is listening)
     - containerPort: 8096
