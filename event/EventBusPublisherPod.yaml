@@ -13,11 +13,11 @@ spec:
     imagePullPolicy: IfNotPresent
     env:
     - name: GIT_URL
-      value: "https://github.com/ajkush"
+      value: "https://github.com/ajkush/publisher"
     - name: APP_PORT
       value: "8096"
     - name: APP_HOME
-      value: "publisher"
+      value: "event"
     - name: APP_STARTUP
       value: "EventBusPublisher.js"
     # assuming Kafka was started on minikube using https://github.com/d1egoaz/minikube-kafka-cluster
